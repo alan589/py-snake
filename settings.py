@@ -1,0 +1,27 @@
+
+SCREEN_WIDTH = 600
+SCREEN_HEIGHT = 700
+BG_COLOR = "black"
+TITLE = "My Snake Game"
+
+MIN_RANDOM = -int(((SCREEN_WIDTH / 2) - 20))
+MAX_RANDOM = int(((SCREEN_HEIGHT - 100) / 2) - 20)
+print(MIN_RANDOM, MAX_RANDOM)
+
+KEY_UP = "w"
+KEY_DOWN = "s"
+KEY_LEFT = "a"
+KEY_RIGHT = "d"
+
+MOVE_DISTANCE = 20
+HEADING_UP = 90
+HEADING_DOWN = 270
+HEADING_LEFT = 180
+HEADING_RIGHT = 0
+
+
+SNAKE_INITIAL_SPEED = 0.1
+START_LENGTH = [(60, 0), (40, 0), (20, 0)]
+
+ALIGNMENT = "center"
+FONT = ('Courier', 18, 'normal')
